@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: /images.jpg
+heroImage: /R.png
 heroText: 前端学习文档
-tagline: 一点一滴都是进步
+tagline: 每天进步一点点
 actionText: 马上进入 →
-actionLink: /pages/folder1/test1.md
+actionLink: /pages/ts-handbook/test1.md
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue驱动
-    details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+  - title: 目前正在进行ing...
+    details: 正在进行TypeScript类型操挑战(type-challenge)；进行TypeScript HandBook翻译，因为中文的TS文档太久没更新了。
+  - title: 技术文章
+    details: 所有的技术文章发表在掘金上:https://juejin.cn/user/1072714335658861/posts
+  - title: TypeScript HandBook翻译
+    details: TypeScript HandBook翻译是根据类型操挑战中自己需要学习的部分就进行翻译，非官方行为，有错请提。
 ---
