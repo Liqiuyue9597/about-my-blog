@@ -35,18 +35,20 @@ module.exports = {
     sidebar: {
       "/pages/ts-handbook/": [
         {
-          title: "测试菜单1", // 一级菜单名称
+          title: "开始", // 一级菜单名称
           collapsable: false, // false为默认展开菜单, 默认值true是折叠,
           sidebarDepth: 1, // 设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [
-            ["test1.md", "子菜单1"], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
-            ["test3.md", "子菜单2"],
+            ["test1.md", "环境搭建"], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+            ["test2.md", "JS to TS快速上手"],
           ],
         },
         {
-          title: "测试菜单2",
+          title: "TS 说明书",
           collapsable: false,
-          children: [["test2.md", "子菜单1"]],
+          children: [
+            ["test3.md", "类型相关Type Manipulation"]
+          ],
         },
       ],
     },
